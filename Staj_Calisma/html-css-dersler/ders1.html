@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-USING CSS</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!---->
+
+   <!--
+    <style>
+        /*
+        selector{
+            css-ozelliği : value
+            aşağıya h2 için yaptım  ve bodyler arasındaki tüm h2 başlıkları aqua oldu.
+        }
+        */
+
+        h2{
+            color: aqua;
+            background : black;
+        }
+    </style>
+   --> 
+
+   <style>
+    h1{
+        background: red;
+    }
+    p,h3{
+        color: blueviolet;
+        background : pink;
+    }
+
+    #logo{  /* tum h1i değil idsi logo olan baslık2 yi değiştirmek için # işareti kullanılır.*/
+        color: red;
+        background-color: black;
+
+    }
+    /*
+
+    * id'ye id="logo" gore secerken -->  #logo 
+    class'a class="lead info" gore secerken --> .info
+    
+    bir paragrafın id="logo" class="lead info" olsun. bunu secerken
+    #logo.lead{}  şeklinde yapıyoruz.
+
+
+
+
+    * link verdiğimizi düşünelim a etiketleri içinde, websitesindeki görünümünde altında çizgi olur. 
+    bunu kaldırmak için:
+    a{
+        text-decoration: none;
+    } 
+    eger sadece ul'in içindeki li'nin içindeki a etiketindeki çizgileri kaldırmak istersek:
+    ul li a{text-decoration: none} yapacağız.
+
+    *html sayfamdaki tüm etiketleri seçmek istiyorsam * simgesi kullanılır: 
+    *{
+        font-size :30px   
+    }
+    tum etiketlerin yazı buyuklugunu 30px yaptık.
+
+    */
+
+   </style>
+</head>
+<body>
+    <h1 style="color :cornflowerblue">Başlık 1 </h1>
+    <h1 id="logo">Başlık 2 </h1>
+  
+    <h2>Başlık3 </h2>
+
+    <h3>küçük başlık</h3>
+
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis at aperiam natus dolorum laborum. Distinctio odit beatae maiores recusandae nihil fuga. Eligendi velit eaque, autem sit aliquam recusandae neque eum!
+    </p>
+
+
+</body>
+</html>

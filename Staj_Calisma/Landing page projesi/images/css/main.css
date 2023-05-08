@@ -1,0 +1,88 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+/*NAVBAR BOLUMU*/
+#navbar { /*navbarı idsine göre seçiyorum*/
+    color: white;
+    display: flex; /* yazılar yanyana gelsin istiyorum*/
+    justify-content: space-between; /*başlık ve sıralılar ayrılıyor bu eşkilde*/
+    align-items: center;
+    padding: 0 0.75rem; /*üstten padding istemiyorum, sag ve soldan istiyorum*/
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none; /* listelilerin başındaki noktaları kaldırıyorum.*/
+    display: flex; /*listeliler yanyana geldi*/
+    align-items: center; /*yapıp centerladım.*/
+}
+#navbar ul li a {
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: #336ea2; /*linklerin uzerine gelince background oluşsun diye yapıyorum.*/
+    border-radius: 4px;  /*biraz ovallesşsin*/
+}
+
+/*HOME BOLUMU*/
+#home{
+    display: flex;
+    flex-direction: column; /*bu sefer flex direction yanyana değil dikey olacak column yapıyorum*/
+    justify-content: center;
+    align-items: center; /*iki tane center yaparak bu şekilde hem dikeyde hem yatayds ortalamaya çalışalım*/
+    padding: 2rem;  /*yani 16px x 2 = 32 px seklinde boşlul verdim*/
+    border-bottom: 1px solid grey;  /*gorunur olması için alt tarafa border veriyorum*/
+}
+
+#home img{
+    max-width: 100%; /*içinde bulunduğu blogun hepsini kaplasın*/
+    height: auto;    /*height kendisini widthe göre ayarlasın*/
+    border-radius: 100%;
+}
+
+home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+
+
+/*Training*/
+
+#training{
+    color: #fff;
+    padding: 1rem; /*her taraftan 1 remlik iç boşluk bırakıyorum*/
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#training .items .item{
+    width: 33%;  /*geniş ekranda her birinin ekranın %33unu kaplamasını istedim*/
+    text-align: center;
+    padding: 0.5rem;
+}
+#training .items .item:hover{
+    color: red;
+    opacity: 0.6;
+}
+
+
+
+
+
+

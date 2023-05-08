@@ -1,0 +1,14 @@
+#navbar{
+    flex-direction: column; /*mobil cihazda görünümü daha iyi olması için yapıyorum.*/
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;  /*hoverın navbardsn taştığını gözlemledim, mobilde bu özelliği kullanarak bunu engelleyebiliriz.*/
+    height: 80px;
+}
+
+#training .items{
+    flex-direction: column;
+}
+#training .items.item{
+    
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*cssde ortak ozellikler varsa son tanımlanan özellik üsttekileri ezer 
+        bu nedenle genel özellikleri üst satırlara, özel özellikleri alt satırlara tanımlamaya dikkat etmeliyiz.
+        eger ezilmesini istemiyorsak, ""!important""" etiketini kullanıyoruz.*/
+        h1{
+            color: purple;
+        }
+        #logo{
+            color: red; /*yukarıdaki mor olanı ezer yani css ustten alta doğru çalışır.*/
+        }
+        ul li a{
+            text-decoration: none;
+        }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <h1>HEADER</h1>
+        <h1 id="logo">Logo</h1>
+
+        <ul>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+        </ul>
+
+        <h1>Header 2</h1>
+    </header>
+    
+</body>
+</html>
